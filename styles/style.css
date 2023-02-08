@@ -86,3 +86,75 @@ section#planning_section h1 {
     font-family: cursive;
     color: #ed1043;
 }
+
+/* call now part  */
+#call_now{
+    width: 75%;
+    margin: auto;
+    margin-top: 70px;
+}
+#call_now img{
+    background-image: url('/images/watch.png');
+}
+.callNow_text{
+    margin-top: -180px;
+    margin-left: 50px;
+}
+.callNow_text h1 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.callNow_text button {
+    background: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+/* blog part  */
+section#blog_part {
+    margin-top: 180px;
+    background: #342c6e;
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+}
+
+.blog-text {
+    margin-top: 60px;
+    color: white;
+}
+
+.blog-text h2 {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.blog-text p {
+    font-size: 17px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.blog-btn button:hover {
+    background: #ff9b00;
+    color: white;
+    transition: .2s;
+    padding: 15px 35px;
+    font-size: 22px;
+}
+.blog-btn button {
+    border: none;
+    background: white;
+    padding: 12px 30px;
+    margin-top: 80px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ff9b00;
+    cursor: pointer;
+}
