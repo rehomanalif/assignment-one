@@ -1,0 +1,88 @@
+*{margin: 0;padding: 0;}
+/* body{width: 1270px;margin: auto;} */
+.banner{
+    display: flex;
+    background-image: url('/images/banner/banner3.png');
+    width: 100%;
+    height: 800px;
+
+}
+.banner-text{
+    text-align: right;
+    margin-top: 250px;
+    margin-left: 700px;
+    width: 40%;
+}
+.banner-text h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.banner-text p {
+    font-size: 17px;
+    color: white;
+    width: 470px;
+    margin-left: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-text button {
+    border: none;
+    background: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* middle banner section  */
+
+section#middle_banner {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.person_text {
+    width: 30%;
+    margin-left: 260px;
+}
+
+.person_img {
+    margin-left: 100px;
+}
+.person_text h1 {
+    font-size: 37px;
+    color: green;
+}
+
+.person_text p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.person_text li {font-size: 16px;line-height: 22px;}
+
+/* planning part  */
+
+#plan_section {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+#plan_section div {
+    margin: auto;
+    text-align: center;
+}
+section#planning_section h1 {
+    font-size: 35px;
+    margin: auto;
+    width: 10%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-family: cursive;
+    color: #ed1043;
+}
