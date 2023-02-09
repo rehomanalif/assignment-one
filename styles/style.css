@@ -36,6 +36,12 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.banner-text button:hover{
+    background-color: transparent;
+    color: white;
+    transition: .2s;
+    border: 1px solid #d2d2d2;
+}
 
 /* middle banner section  */
 
@@ -114,20 +120,29 @@ section#planning_section h1 {
     font-size: 17px;
     font-family: monospace;
     font-weight: 600;
+    cursor: pointer;
+}
+.callNow_text button:hover{
+    background-color: transparent;
+    color: white;
+    transition: .2s;
+    border: 1px solid #ddd;
 }
 
 /* blog part  */
 section#blog_part {
     margin-top: 180px;
-    background: #342c6e;
+    background: #c5c5c8;
     display: flex;
     justify-content: space-around;
     height: 180px;
+    padding: 50px;
+    margin-bottom: 50px;
 }
 
 .blog-text {
     margin-top: 60px;
-    color: white;
+    color: black;
 }
 
 .blog-text h2 {
@@ -150,11 +165,67 @@ section#blog_part {
 }
 .blog-btn button {
     border: none;
-    background: white;
+    background: #ff9b00;
     padding: 12px 30px;
     margin-top: 80px;
     border-radius: 2px;
     font-size: 20px;
-    color: #ff9b00;
+    color: white;
     cursor: pointer;
+}
+
+/* Footer Part  */
+#footer{
+    background: black;
+    color: white;
+    padding: 100px 20px;
+}
+.footerPart{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+.footer-text h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-text p{
+    width: 50%;
+    line-height: 23px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social a{
+    margin-right: 15px;
+}
+
+.footer-input h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-input input{
+    border: 1px solid #ddd;
+    padding: 17px 30px;
+    padding-left: 15px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    color: white;
+}
+.footer-input button{
+    background-color: #006aff;
+    color: white;
+    font-size: 22px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer-input button:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #d2d2d2;
+    
 }
