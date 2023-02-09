@@ -133,7 +133,7 @@ section#planning_section h1 {
 /* blog part  */
 section#blog_part {
     margin-top: 180px;
-    background: #c5c5c8;
+    background: rgb(243, 238, 238);
     display: flex;
     justify-content: space-around;
     height: 180px;
